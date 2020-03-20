@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -17,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
 
         this.mViewHolder.campoTexto = findViewById(R.id.campoTextoId);
         this.mViewHolder.titulo = findViewById(R.id.titleId);
+        this.mViewHolder.lista = findViewById(R.id.listaId);
+
         this.clearValues();
 
     }
@@ -24,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
     private static class ViewHolder {
         EditText campoTexto;
         TextView titulo;
+        ListView lista;
     }
 
     private void clearValues(){
