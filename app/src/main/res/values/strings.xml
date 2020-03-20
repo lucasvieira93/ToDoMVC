@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ToDo MVC</string>
+    <string name="whatNeeds">What needs to be done?</string>
+    <string name="toDo">To Do List!</string>
+</resources>
